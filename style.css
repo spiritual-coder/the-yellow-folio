@@ -1,0 +1,200 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.container {
+	width: 100%;
+	min-height: 100vh;
+	background: #F6BE00;
+	color: #fff;
+	position: relative;
+}
+
+.landing-page {
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+}
+
+.big-round-circle {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	width: 300px;
+	height: 300px;
+	background: #000;
+	border-radius: 50%;
+	font-size: 90px;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.page-two {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.about-me-image img {
+	height: 378px;
+	width: 303px;
+	border: 5px solid #fff;
+}
+
+.about-me-text {
+  font-size: 84px;
+  color: #000;
+}
+
+.page-three {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-me-content {
+  font-size: 42px;
+  color: #000;
+  text-align: center;
+}
+
+.page-four {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.portfolio-text {
+	font-size: 72px;
+	color: #000;
+}
+
+.portfolio-list {
+	background: #fff;
+	width: 88%;
+	height: 250px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+/*	padding: 10px;*/
+}
+
+.portfolio-image img {
+	height: 200px;
+	width: 200px;
+}
+
+.portfolio-image img:hover {
+	opacity: 80%;
+}
+
+.page-six {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+}
+
+.black-box {
+	position: absolute;
+ 	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	width: 1200px;
+	height: 540px;
+	background: #000;
+	font-size: 54px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.contact-text {
+	margin: 10px;
+}
+
+.contact-title {
+	font-size: 36px;
+	margin: 15px 0;
+}
+
+.contact-body {
+	margin: 20px 0;
+}
+
+.contact-body h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 4px 0;
+	letter-spacing: 1px;
+}
+
+.contact-body p {
+	font-size: 21px;
+	margin: 24px 0;
+}
+
+@media (max-width: 991px) {
+	.big-round-circle {
+		width: 240px;
+		height: 240px;
+		font-size: 60px;
+	}
+
+	.page-two {
+		flex-direction: column;
+	}
+
+	.about-me-text {
+		font-size: 42px;
+		text-align: center;
+	} 
+
+	.portfolio-text {
+		font-size: 36px;
+		text-align: center;
+
+	}
+
+	.portfolio-list {
+		flex-direction: row;
+		height: 1100px;
+		width: 250px;
+		margin: 50px;
+	}
+
+	.black-box {
+		width: 300px;
+		height: 600px;
+	}
+
+	.black-box {
+		flex-direction: column;
+	} 
+
+	.contact-image {
+		display: none;
+	}
+
+	}
+
+
+
+
+
